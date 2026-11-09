@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1945" />
+      <stop offset="50%" stop-color="#070e24" />
+      <stop offset="100%" stop-color="#050a1a" />
+    </linearGradient>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="#2563eb" stroke-width="4" stroke-opacity="0.4" />
+
+  <!-- Shield / Document Shape -->
+  <rect x="96" y="80" width="320" height="352" rx="36" fill="#0c183a" stroke="#1e3a8a" stroke-width="6" />
+
+  <!-- Pulse Wave / East Africa Map Pulse -->
+  <path d="M140 256 H190 L216 180 L256 332 L296 210 L322 256 H372" fill="none" stroke="url(#glow)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Document Checklist Lines -->
+  <rect x="150" y="132" width="120" height="12" rx="6" fill="#60a5fa" />
+  <rect x="290" y="132" width="70" height="12" rx="6" fill="#2563eb" />
+
+  <rect x="150" y="370" width="80" height="12" rx="6" fill="#3b82f6" />
+  <circle cx="340" cy="376" r="14" fill="#22c55e" />
+  <path d="M334 376 L338 380 L346 372" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Brand Letter P -->
+  <circle cx="160" cy="138" r="4" fill="#93c5fd" />
+</svg>

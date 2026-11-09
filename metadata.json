@@ -1,0 +1,6 @@
+{
+  "name": "PulseForm East Africa - Survey & Field Intelligence Platform",
+  "description": "Enterprise survey builder, mobile-money research, and field analytics engineered specifically for organizations across East Africa (Kenya, Tanzania, Uganda, Rwanda, Ethiopia).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
